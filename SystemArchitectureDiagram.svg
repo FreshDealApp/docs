@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="836px" preserveAspectRatio="none" style="width:4717px;height:836px;background:#FFFFFF;" version="1.1" viewBox="0 0 4717 836" width="4717px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="26.2969" id="_title" style="stroke:none;stroke-width:1.0;" width="474" x="2114.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="464" x="2119.5" y="22.9951">FreshDeal Ecosystem Architecture - Actual Implementation</text><!--MD5=[a3a458535fdcfbbb6367078bc381dc55]
+cluster Clients--><g id="cluster_Clients"><path d="M4058.5,45.2969 L4113.5,45.2969 A3.75,3.75 0 0 1 4116,47.7969 L4123,67.5938 L4707.5,67.5938 A2.5,2.5 0 0 1 4710,70.0938 L4710,260.7969 A2.5,2.5 0 0 1 4707.5,263.2969 L4058.5,263.2969 A2.5,2.5 0 0 1 4056,260.7969 L4056,47.7969 A2.5,2.5 0 0 1 4058.5,45.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="4056" x2="4123" y1="67.5938" y2="67.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="4060" y="60.292">Clients</text></g><!--MD5=[80111d790db8347e3fcc108984b1ca27]
+cluster FreshDeal Backend API\n(Flask + Python)--><g id="cluster_FreshDeal Backend API\n(Flask + Python)"><path d="M8.5,43.2969 L190.5,43.2969 A3.75,3.75 0 0 1 193,45.7969 L200,81.8906 L4029.5,81.8906 A2.5,2.5 0 0 1 4032,84.3906 L4032,518.7969 A2.5,2.5 0 0 1 4029.5,521.2969 L8.5,521.2969 A2.5,2.5 0 0 1 6,518.7969 L6,45.7969 A2.5,2.5 0 0 1 8.5,43.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="200" y1="81.8906" y2="81.8906"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="181" x="10" y="58.292">FreshDeal Backend API</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="36" y="74.5889">(Flask + Python)</text></g><!--MD5=[034e11638cc285d3d3d1ae3fc21e0582]
+cluster Routes Layer--><g id="cluster_Routes Layer"><path d="M32.5,102.2969 L137.5,102.2969 A3.75,3.75 0 0 1 140,104.7969 L147,124.5938 L4005.5,124.5938 A2.5,2.5 0 0 1 4008,127.0938 L4008,203.7969 A2.5,2.5 0 0 1 4005.5,206.2969 L32.5,206.2969 A2.5,2.5 0 0 1 30,203.7969 L30,104.7969 A2.5,2.5 0 0 1 32.5,102.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="30" x2="147" y1="124.5938" y2="124.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="104" x="34" y="117.292">Routes Layer</text></g><!--MD5=[167559344b6808c6e7281c72e5103d8e]
+cluster Service Layer--><g id="cluster_Service Layer"><path d="M436.5,287.2969 L545.5,287.2969 A3.75,3.75 0 0 1 548,289.7969 L555,309.5938 L3839.5,309.5938 A2.5,2.5 0 0 1 3842,312.0938 L3842,371.7969 A2.5,2.5 0 0 1 3839.5,374.2969 L436.5,374.2969 A2.5,2.5 0 0 1 434,371.7969 L434,289.7969 A2.5,2.5 0 0 1 436.5,287.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="434" x2="555" y1="309.5938" y2="309.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="108" x="438" y="302.292">Service Layer</text></g><!--MD5=[023fe2768d341cd525e8503fdfbee177]
+cluster Data Layer--><g id="cluster_Data Layer"><path d="M505.5,398.2969 L590.5,398.2969 A3.75,3.75 0 0 1 593,400.7969 L600,420.5938 L3373.5,420.5938 A2.5,2.5 0 0 1 3376,423.0938 L3376,494.7969 A2.5,2.5 0 0 1 3373.5,497.2969 L505.5,497.2969 A2.5,2.5 0 0 1 503,494.7969 L503,400.7969 A2.5,2.5 0 0 1 505.5,398.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="503" x2="600" y1="420.5938" y2="420.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="507" y="413.292">Data Layer</text></g><!--MD5=[11b7adb059dd9273ac36fb128dab18ca]
+cluster External Services Layer--><g id="cluster_External Services Layer"><path d="M2572.5,545.2969 L2759.5,545.2969 A3.75,3.75 0 0 1 2762,547.7969 L2769,567.5938 L3761.5,567.5938 A2.5,2.5 0 0 1 3764,570.0938 L3764,826.7969 A2.5,2.5 0 0 1 3761.5,829.2969 L2572.5,829.2969 A2.5,2.5 0 0 1 2570,826.7969 L2570,547.7969 A2.5,2.5 0 0 1 2572.5,545.2969 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="2570" x2="2769" y1="567.5938" y2="567.5938"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="186" x="2574" y="560.292">External Services Layer</text></g><!--MD5=[196d6eeb2242891742fda3f334b4ab6e]
+entity Mobile--><g id="elem_Mobile"><rect fill="#F1F1F1" height="166.6719" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="4528" y="80.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="4538" y="103.292">Mobile App</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="4538" y="119.5889">(React Native)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="4538" y="135.8857">• User Auth</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="4538" y="152.1826">• Order Management</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="4538" y="168.4795">• Gamification</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="4538" y="184.7764">• Push Notifications</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="4538" y="201.0732">• Map Integration</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="4538" y="217.3701">• FreshScore Display</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="4538" y="233.667">• FlashDeals</text></g><!--MD5=[7eeebffe8f5bd87c90d14dbc297525aa]
+entity WebClient--><g id="elem_WebClient"><rect fill="#F1F1F1" height="150.375" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="166" x="4342" y="88.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="4352" y="111.792">Web Client</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="4352" y="128.0889">(React/JavaScript)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="4352" y="144.3857">• Customer UI</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="4352" y="160.6826">• Order Management</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="4352" y="176.9795">• Cart &amp; Checkout</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="4352" y="193.2764">• Gamification</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="4352" y="209.5732">• FlashDeals UI</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="4352" y="225.8701">• CO₂ Impact Track</text></g><!--MD5=[89cd6af11baf4eaf8cc6fd274f448e77]
+entity BizPortal--><g id="elem_BizPortal"><rect fill="#F1F1F1" height="166.6719" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="250" x="4072" y="80.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="4082" y="103.292">Business Portal</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="4082" y="119.5889">(TypeScript + React)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="183" x="4082" y="135.8857">• Restaurant Management</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="4082" y="152.1826">• Flash Deals Configuration</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="4082" y="168.4795">• Analytics Dashboard</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="4082" y="184.7764">• Support Ticket Management</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="230" x="4082" y="201.0732">• Restaurant Punishment System</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="4082" y="217.3701">• Order Fulfillment Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="4082" y="233.667">• Performance Analytics</text></g><!--MD5=[e61636b458b405f9560e82f9afb61180]
+entity AuthRoutes--><g id="elem_AuthRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="3886" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="3896" y="160.292">Auth Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="3896" y="176.5889">(auth_bp)</text></g><!--MD5=[3713f326606f797a9f95c8908f4a6c7b]
+entity AddressRoutes--><g id="elem_AddressRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="46.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="56.5" y="160.292">Address Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="56.5" y="176.5889">(addresses_bp)</text></g><!--MD5=[46a6ee6095344404d9d1bbd81bca12e4]
+entity UserRoutes--><g id="elem_UserRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="3172" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="3182" y="160.292">User Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="3182" y="176.5889">(user_bp)</text></g><!--MD5=[c3c2ead9335c706fd43984c0cc551939]
+entity RestRoutes--><g id="elem_RestRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="2484" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2494" y="160.292">Restaurant Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="2494" y="176.5889">(restaurant_bp)</text></g><!--MD5=[ce277df23c987a87e92934cf969e6464]
+entity ListingRoutes--><g id="elem_ListingRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="1820" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="1830" y="160.292">Listing Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1830" y="176.5889">(listings_bp)</text></g><!--MD5=[0613dc3a34fb5396b0ea9e08bfb7cf5f]
+entity CartRoutes--><g id="elem_CartRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="3626" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="3636" y="160.292">Cart Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="3636" y="176.5889">(cart_bp)</text></g><!--MD5=[f24516d940040ba65072d1a87e672288]
+entity SearchRoutes--><g id="elem_SearchRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="950" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="960" y="160.292">Search Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="960" y="176.5889">(search_bp)</text></g><!--MD5=[ef586d72ca956ddb23bbf186f6dcc5fa]
+entity PurchaseRoutes--><g id="elem_PurchaseRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="197.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="207.5" y="160.292">Purchase Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="207.5" y="176.5889">(purchase_bp)</text></g><!--MD5=[2b47031744d7a0641f009cdedb368f1f]
+entity ReportRoutes--><g id="elem_ReportRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="1678.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1688.5" y="160.292">Report Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="1688.5" y="176.5889">(report_bp)</text></g><!--MD5=[583787527209effacfeda30a7cc57f1b]
+entity NotificationRoutes--><g id="elem_NotificationRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="3002" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="3012" y="160.292">Notification Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="3012" y="176.5889">(notification_bp)</text></g><!--MD5=[625bf28226dc5df1f2039947588ff3e4]
+entity GamifRoutes--><g id="elem_GamifRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="3298" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3308" y="160.292">Gamification Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="3308" y="176.5889">(gamification_bp)</text></g><!--MD5=[380ee2797ad47bb1c46cb88d80465d8f]
+entity AchieveRoutes--><g id="elem_AchieveRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="164" x="2654" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="2664" y="160.292">Achievement Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2664" y="176.5889">(achievement_bp)</text></g><!--MD5=[3f5d2b900d774834356f6410cf7d27fa]
+entity RestBadgeRoutes--><g id="elem_RestBadgeRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="199" x="2264.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="2274.5" y="160.292">Restaurant Badge Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="2274.5" y="176.5889">(restaurant_badge_bp)</text></g><!--MD5=[35650429c5235cc242e578e855e95778]
+entity StaticRoutes--><g id="elem_StaticRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="2132" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="2142" y="160.292">Static Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="2142" y="176.5889">(static_bp)</text></g><!--MD5=[fb6c5733858723ea93727e68509a864e]
+entity AnalyticsRoutes--><g id="elem_AnalyticsRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="357" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="367" y="160.292">Analytics Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="367" y="176.5889">(analytics_bp)</text></g><!--MD5=[dc7f9906dec0d77e1d809f3798c5d97f]
+entity CommentRoutes--><g id="elem_CommentRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="728.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="738.5" y="160.292">Comment Analysis Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="738.5" y="176.5889">(comment_analysis_bp)</text></g><!--MD5=[60b4c6a44a3d857a57e8c6f5a1546143]
+entity PunishRoutes--><g id="elem_PunishRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="237" x="1284.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="1294.5" y="160.292">Restaurant Punishment Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="1294.5" y="176.5889">(restaurant_punishment_bp)</text></g><!--MD5=[4c4e4aa646d6761d866f2e7aa36f3995]
+entity RecRoutes--><g id="elem_RecRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="511.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="521.5" y="160.292">Recommendation Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="521.5" y="176.5889">(recommendation_bp)</text></g><!--MD5=[05bc3f52ce609b40124e90f7aa094ad2]
+entity WebPushRoutes--><g id="elem_WebPushRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="144" x="2838" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2848" y="160.292">Web Push Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="2848" y="176.5889">(web_push_bp)</text></g><!--MD5=[a0e0c1bbf975a7969d72372f9e323a9a]
+entity FlashDealsRoutes--><g id="elem_FlashDealsRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="1958.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1968.5" y="160.292">Flash Deals Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1968.5" y="176.5889">(flash_deals_bp)</text></g><!--MD5=[1b134e991d45c76c253fd66b5e3c59f7]
+entity EnvRoutes--><g id="elem_EnvRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="172" x="1092" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1102" y="160.292">Environmental Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="1102" y="176.5889">(environmental_bp)</text></g><!--MD5=[8d3bf093bb4cbd59e8032a3430721ee5]
+entity TicketRoutes--><g id="elem_TicketRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="1542" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1552" y="160.292">Ticket Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="1552" y="176.5889">(ticket_bp)</text></g><!--MD5=[8af9d43fc0ee2c962c38623c36f7a6e7]
+entity ChatbotRoutes--><g id="elem_ChatbotRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="3476.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="3486.5" y="160.292">Chatbot Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="3486.5" y="176.5889">(chatbot_bp)</text></g><!--MD5=[0bf6c312c9cf402f52bd3349f4bbd8aa]
+entity AdminRoutes--><g id="elem_AdminRoutes"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="3748.5" y="137.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="3758.5" y="160.292">Admin Routes</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="3758.5" y="176.5889">(admin_bp)</text></g><!--MD5=[842601888e0acc3a23d18196eaf04a2b]
+entity AuthSvc--><g id="elem_AuthSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="3720" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="3730" y="345.292">Auth Service</text></g><!--MD5=[302226b08be6822319deb6a2e04b28e0]
+entity AddressSvc--><g id="elem_AddressSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="450.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="460.5" y="345.292">Address Service</text></g><!--MD5=[cfdc7ca7d1eceae384aaea9f57e9b7ae]
+entity UserSvc--><g id="elem_UserSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="3006" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="3016" y="345.292">User Service</text></g><!--MD5=[29159eb0bece8f23f20a26b41653063e]
+entity RestSvc--><g id="elem_RestSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="2482" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2492" y="345.292">Restaurant Service</text></g><!--MD5=[652e807dc04fa0eebc0162c6458d227d]
+entity ListingSvc--><g id="elem_ListingSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="2116" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="2126" y="345.292">Listings Service</text></g><!--MD5=[3c25697127c377027437e6a53c6262a9]
+entity CartSvc--><g id="elem_CartSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="3460" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="3470" y="345.292">Cart Service</text></g><!--MD5=[c7d3f638b1b015366ef1a3c5b52de103]
+entity SearchSvc--><g id="elem_SearchSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="1383" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="1393" y="345.292">Search Service</text></g><!--MD5=[85da2e7f9ef2bea66c49ae87557a2cfd]
+entity PurchaseSvc--><g id="elem_PurchaseSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="601.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="611.5" y="345.292">Purchase Service</text></g><!--MD5=[f4d6c8a42cc97bd476db8acece2ef785]
+entity ReportSvc--><g id="elem_ReportSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="1974.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="1984.5" y="345.292">Report Service</text></g><!--MD5=[2f8aa92ef402a409f3caf3e3933ee21e]
+entity NotifSvc--><g id="elem_NotifSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="2836" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2846" y="345.292">Notification Service</text></g><!--MD5=[8499f769b77e43344cda794e18ad48b3]
+entity GamifSvc--><g id="elem_GamifSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="3132" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3142" y="345.292">Gamification Service</text></g><!--MD5=[4cbbc07b81fca51fc4628545c09eedf8]
+entity AchieveSvc--><g id="elem_AchieveSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="164" x="2652" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="2662" y="345.292">Achievement Service</text></g><!--MD5=[a25c15ebc20b2422edd944aa539cd891]
+entity RestBadgeSvc--><g id="elem_RestBadgeSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="199" x="2262.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="2272.5" y="345.292">Restaurant Badge Service</text></g><!--MD5=[f82569b21627f54b4de106d7c9170670]
+entity RestNotifSvc--><g id="elem_RestNotifSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="230" x="1133" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="1143" y="345.292">Restaurant Notification Service</text></g><!--MD5=[9691155289fec4927af6c08fa19b1346]
+entity PunishSvc--><g id="elem_PunishSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="237" x="1717.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="217" x="1727.5" y="345.292">Restaurant Punishment Service</text></g><!--MD5=[6f40629d4b932be323e1355ceb286cfa]
+entity EnvSvc--><g id="elem_EnvSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="172" x="1525" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1535" y="345.292">Environmental Service</text></g><!--MD5=[3a2d876d79457d924d4da9aefc60acbc]
+entity ChatbotSvc--><g id="elem_ChatbotSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="3310.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="3320.5" y="345.292">Chatbot Service</text></g><!--MD5=[6dd489c6342d650685b80d9779891dfa]
+entity AdminSvc--><g id="elem_AdminSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="3582.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="3592.5" y="345.292">Admin Service</text></g><!--MD5=[3848eeeb0b2820530e319ba223209862]
+entity AnalyticsSvc--><g id="elem_AnalyticsSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="134" x="761" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="771" y="345.292">Analytics Service</text></g><!--MD5=[b54c90fb9a1fe94597893c648f0c49bb]
+entity RecSvc--><g id="elem_RecSvc"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="915.5" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="925.5" y="345.292">Recommendation Service</text></g><!--MD5=[f4ea7dc4704f1a9831a8171dc722fe8d]
+entity UserModel--><g id="elem_UserModel"><ellipse cx="3195" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="3183" x2="3207" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="3156" y="478.292">User Model</text></g><!--MD5=[f7262f4464db017b71d435fbcbe6502a]
+entity AddrModel--><g id="elem_AddrModel"><ellipse cx="592" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="580" x2="604" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="519" y="478.292">CustomerAddr Model</text></g><!--MD5=[93795946db3697a355efa71a3f8f2a0d]
+entity RestModel--><g id="elem_RestModel"><ellipse cx="2196" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="2184" x2="2208" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="2135" y="478.292">Restaurant Model</text></g><!--MD5=[8acb1ba3d5d89162a19520ea08c7d64a]
+entity ListingModel--><g id="elem_ListingModel"><ellipse cx="1418" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="1406" x2="1430" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="1373" y="478.292">Listing Model</text></g><!--MD5=[5e328c309e8be0bed0d21459c0e82216]
+entity UserCartModel--><g id="elem_UserCartModel"><ellipse cx="3307" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="3295" x2="3319" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="3254" y="478.292">UserCart Model</text></g><!--MD5=[14b81f1567473e52ba12361295f60c9f]
+entity PurchaseModel--><g id="elem_PurchaseModel"><ellipse cx="907" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="895" x2="919" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="851.5" y="478.292">Purchase Model</text></g><!--MD5=[643f27df70fb4d5982470c9079fba9a4]
+entity PurchaseReportModel--><g id="elem_PurchaseReportModel"><ellipse cx="2036" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="2024" x2="2048" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="1957" y="478.292">PurchaseReport Model</text></g><!--MD5=[96cba7a1048de670a30c5121e8ff7436]
+entity AchieveModel--><g id="elem_AchieveModel"><ellipse cx="2575" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="2563" x2="2587" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="2507" y="478.292">Achievement Model</text></g><!--MD5=[597fcaf46418c46663145c915ef553af]
+entity UserAchieveModel--><g id="elem_UserAchieveModel"><ellipse cx="2747" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="2735" x2="2759" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="2663" y="478.292">UserAchievement Model</text></g><!--MD5=[5f1840b237bd05daad34346b5f82801d]
+entity RestCommentModel--><g id="elem_RestCommentModel"><ellipse cx="1078" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="1066" x2="1090" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="983" y="478.292">RestaurantComment Model</text></g><!--MD5=[23cf5394181b7be600e7a23e77967c0d]
+entity CommentBadgeModel--><g id="elem_CommentBadgeModel"><ellipse cx="1273" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="1261" x2="1285" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="1193.5" y="478.292">CommentBadge Model</text></g><!--MD5=[7c6f1738be258a47fad78c921f11b6b2]
+entity BadgePointsModel--><g id="elem_BadgePointsModel"><ellipse cx="2382" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="2370" x2="2394" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="210" x="2277" y="478.292">RestaurantBadgePoints Model</text></g><!--MD5=[828d1fdee1214f51a4e92cadb7344415]
+entity PunishmentModel--><g id="elem_PunishmentModel"><ellipse cx="1835" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="1823" x2="1847" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="205" x="1732.5" y="478.292">RestaurantPunishment Model</text></g><!--MD5=[b15e77a37f00cb921cf451b513817790]
+entity UserDeviceModel--><g id="elem_UserDeviceModel"><ellipse cx="2913" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="2901" x2="2925" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="2850.5" y="478.292">UserDevice Model</text></g><!--MD5=[631815853137cb2236dac7d5e28b0e58]
+entity UserFavModel--><g id="elem_UserFavModel"><ellipse cx="3066" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="3054" x2="3078" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="2996" y="478.292">UserFavorites Model</text></g><!--MD5=[c12e1e7d6e6c03f0233b636864c8dc88]
+entity RefundModel--><g id="elem_RefundModel"><ellipse cx="758" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="746" x2="770" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="685" y="478.292">RefundRecord Model</text></g><!--MD5=[ff2f17cc58154c04110537dc10d66817]
+entity EnvContributionModel--><g id="elem_EnvContributionModel"><ellipse cx="1598" cy="449.2969" fill="#F1F1F1" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="1586" x2="1610" y1="463.2969" y2="463.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229" x="1483.5" y="478.292">EnvironmentalContribution Model</text></g><!--MD5=[2bba5e7b7fe4bc2fbd9825db3f1d4f93]
+entity SQL--><g id="elem_SQL"><rect fill="#F1F1F1" height="117.7813" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="2586" y="580.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="2596" y="603.292">MS SQL Server</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2596" y="619.5889">(Primary Database)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="2596" y="635.8857">• All Models</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="2596" y="652.1826">• Relationships</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="2596" y="668.4795">• Constraints</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="2596" y="684.7764">• Migrations</text></g><!--MD5=[dbbf1b939b8a2e00b878a83f7eefb21c]
+entity Firebase--><g id="elem_Firebase"><rect fill="#F1F1F1" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="2756" y="588.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="2766" y="611.792">Firebase Storage</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="2766" y="628.0889">• Image Upload</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2766" y="644.3857">• File Management</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="2766" y="660.6826">• Static Assets</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="2766" y="676.9795">• CDN Integration</text></g><!--MD5=[2c428377ba1f5c517635e744880b88fd]
+entity AzureComm--><g id="elem_AzureComm"><rect fill="#F1F1F1" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="3336" y="588.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="214" x="3346" y="611.792">Azure Communication Services</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="3346" y="628.0889">• Email Verification</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="3346" y="644.3857">• Code Generation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="3346" y="660.6826">• SMTP Services</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="3346" y="676.9795">• Template Management</text></g><!--MD5=[110fe1fbadef98a31568f03c9d53015f]
+entity WebPushExt--><g id="elem_WebPushExt"><rect fill="#F1F1F1" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="192" x="2926" y="588.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="2936" y="611.792">Web Push Notifications</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="2936" y="628.0889">• Browser Push</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="2936" y="644.3857">• VAPID Keys</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="2936" y="660.6826">• Service Workers</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="2936" y="676.9795">• Cross-platform Support</text></g><!--MD5=[e3152162072024c50465e7b26cb20ed6]
+entity Scheduler--><g id="elem_Scheduler"><rect fill="#F1F1F1" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="3138" y="588.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="3148" y="611.792">Background Scheduler</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3148" y="628.0889">• APScheduler</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="3148" y="644.3857">• Listing Updates</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="3148" y="660.6826">• Automated Tasks</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="3148" y="676.9795">• Cron Jobs</text></g><!--MD5=[9cf2b7bc36131286e007afa455dc827c]
+entity ApiDocs--><g id="elem_ApiDocs"><rect fill="#F1F1F1" height="101.4844" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="158" x="3590" y="588.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="3600" y="611.792">API Documentation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="3600" y="628.0889">• Swagger/Flasgger</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="3600" y="644.3857">• Interactive Docs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="3600" y="660.6826">• Schema Validation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="3600" y="676.9795">• Testing Interface</text></g><!--MD5=[43475a3a08266adb4b1fc8a4f173fec2]
+entity AzureHost--><g id="elem_AzureHost"><rect fill="#F1F1F1" height="85.1875" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="164" x="3085" y="728.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="3095" y="751.292">Azure App Service</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="3095" y="767.5889">• Application Hosting</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="3095" y="783.8857">• Auto-scaling</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="3095" y="800.1826">• Load Balancing</text></g><!--MD5=[bd5f618b12816bd4b75416c1e6e531a6]
+entity REST--><g id="elem_REST"><rect fill="#F1F1F1" height="52.5938" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="179" x="4221.5" y="313.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="4231.5" y="336.792">REST</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="4231.5" y="353.0889">HTTP/HTTPS, TLS 1.2+</text></g><!--MD5=[e77853eb466d9d6fcdedeb096a7546f0]
+entity RestAPI--><g id="elem_RestAPI"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="82" x="4048" y="439.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="4058" y="462.292">REST API</text></g><!--MD5=[8f287a829aed99ede77334b726b1fbf2]
+link Mobile to REST--><g id="link_Mobile_REST"><path d="M4527.96,243.2969 C4462.08,243.2969 4381,243.2969 4381,243.2969 C4381,243.2969 4381,308.7869 4381,308.7869 " fill="none" id="Mobile-to-REST" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="4381,313.7869,4385,304.7869,4381,308.7869,4377,304.7869,4381,313.7869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9a2dc85faab2c96f1cf57f1b4165c47f]
+link WebClient to REST--><g id="link_WebClient_REST"><path d="M4361.5,238.9069 C4361.5,238.9069 4361.5,308.7369 4361.5,308.7369 " fill="none" id="WebClient-to-REST" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="4361.5,313.7369,4365.5,304.7369,4361.5,308.7369,4357.5,304.7369,4361.5,313.7369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cd0aa9c51978dd085b7b5b1b22adec2b]
+link BizPortal to REST--><g id="link_BizPortal_REST"><path d="M4271.75,247.3969 C4271.75,247.3969 4271.75,308.7769 4271.75,308.7769 " fill="none" id="BizPortal-to-REST" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="4271.75,313.7769,4275.75,304.7769,4271.75,308.7769,4267.75,304.7769,4271.75,313.7769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cc9c9fd89928036d7b842f00cd1a08c2]
+link REST to RestAPI--><g id="link_REST_RestAPI"><path d="M4221.33,365.2969 C4164.25,365.2969 4101,365.2969 4101,365.2969 C4101,365.2969 4101,434.1169 4101,434.1169 " fill="none" id="REST-to-RestAPI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="4101,439.1169,4105,430.1169,4101,434.1169,4097,430.1169,4101,439.1169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[875651e11a90f16383754397192bf203]
+link AuthRoutes to AuthSvc--><g id="link_AuthRoutes_AuthSvc"><path d="M3939,190.6069 C3939,239.9769 3939,340.2969 3939,340.2969 C3939,340.2969 3831.44,340.2969 3831.44,340.2969 " fill="none" id="AuthRoutes-to-AuthSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3826.44,340.2969,3835.44,344.2969,3831.44,340.2969,3835.44,336.2969,3826.44,340.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8fb17381271de57433476fe0912f9679]
+link AddressRoutes to AddressSvc--><g id="link_AddressRoutes_AddressSvc"><path d="M112,190.6069 C112,239.9769 112,340.2969 112,340.2969 C112,340.2969 445.19,340.2969 445.19,340.2969 " fill="none" id="AddressRoutes-to-AddressSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="450.19,340.2969,441.19,336.2969,445.19,340.2969,441.19,344.2969,450.19,340.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[81bf55fb9022ede8d3175fe9a04d8041]
+link UserRoutes to UserSvc--><g id="link_UserRoutes_UserSvc"><path d="M3225,190.7169 C3225,213.7769 3225,243.2969 3225,243.2969 C3225,243.2969 3059,243.2969 3059,243.2969 C3059,243.2969 3059,317.0569 3059,317.0569 " fill="none" id="UserRoutes-to-UserSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3059,322.0569,3063,313.0569,3059,317.0569,3055,313.0569,3059,322.0569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[982c038cab5b4240b9a262e2cc3359f7]
+link RestRoutes to RestSvc--><g id="link_RestRoutes_RestSvc"><path d="M2558,190.6069 C2558,190.6069 2558,316.8969 2558,316.8969 " fill="none" id="RestRoutes-to-RestSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2558,321.8969,2562,312.8969,2558,316.8969,2554,312.8969,2558,321.8969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[42adeb0a97b2a087de4f686986367b7c]
+link ListingRoutes to ListingSvc--><g id="link_ListingRoutes_ListingSvc"><path d="M1879,190.3169 C1879,201.6369 1879,212.2969 1879,212.2969 C1879,212.2969 2124,212.2969 2124,212.2969 C2124,212.2969 2124,317.2269 2124,317.2269 " fill="none" id="ListingRoutes-to-ListingSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2124,322.2269,2128,313.2269,2124,317.2269,2120,313.2269,2124,322.2269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2052c2e3619f4adb899de80b24365512]
+link CartRoutes to CartSvc--><g id="link_CartRoutes_CartSvc"><path d="M3650.5,190.4469 C3650.5,210.4169 3650.5,234.2969 3650.5,234.2969 C3650.5,234.2969 3533.5,234.2969 3533.5,234.2969 C3533.5,234.2969 3533.5,316.8369 3533.5,316.8369 " fill="none" id="CartRoutes-to-CartSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3533.5,321.8369,3537.5,312.8369,3533.5,316.8369,3529.5,312.8369,3533.5,321.8369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a3e3f72676bfabaa7efab8db70faa8e3]
+link SearchRoutes to SearchSvc--><g id="link_SearchRoutes_SearchSvc"><path d="M1011,190.3769 C1011,193.3269 1011,195.2969 1011,195.2969 C1011,195.2969 1444,195.2969 1444,195.2969 C1444,195.2969 1444,317.2269 1444,317.2269 " fill="none" id="SearchRoutes-to-SearchSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1444,322.2269,1448,313.2269,1444,317.2269,1440,313.2269,1444,322.2269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[513f0b5a9edaa82ec97aaeb254f5a0c1]
+link PurchaseRoutes to PurchaseSvc--><g id="link_PurchaseRoutes_PurchaseSvc"><path d="M267,190.4269 C267,228.0569 267,292.2969 267,292.2969 C267,292.2969 672.83,292.2969 672.83,292.2969 C672.83,292.2969 672.83,317.1469 672.83,317.1469 " fill="none" id="PurchaseRoutes-to-PurchaseSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="672.83,322.1469,676.83,313.1469,672.83,317.1469,668.83,313.1469,672.83,322.1469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[99ed336a1a26ee4e8506bd5b5017e527]
+link ReportRoutes to ReportSvc--><g id="link_ReportRoutes_ReportSvc"><path d="M1772.17,190.5469 C1772.17,203.9169 1772.17,217.2969 1772.17,217.2969 C1772.17,217.2969 2055.17,217.2969 2055.17,217.2969 C2055.17,217.2969 2055.17,317.1469 2055.17,317.1469 " fill="none" id="ReportRoutes-to-ReportSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2055.17,322.1469,2059.17,313.1469,2055.17,317.1469,2051.17,313.1469,2055.17,322.1469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[127002a090d0bc5f1cc8ad5f2ad0e65a]
+link NotificationRoutes to NotifSvc--><g id="link_NotificationRoutes_NotifSvc"><path d="M3001.89,164.2969 C2995.26,164.2969 2991,164.2969 2991,164.2969 C2991,164.2969 2991,340.2969 2991,340.2969 C2991,340.2969 2990.52,340.2969 2990.52,340.2969 " fill="none" id="NotificationRoutes-to-NotifSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2986.24,340.2969,2995.24,344.2969,2991.24,340.2969,2995.24,336.2969,2986.24,340.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9189dd6f7309e4d7cc6887b49af0f85d]
+link GamifRoutes to GamifSvc--><g id="link_GamifRoutes_GamifSvc"><path d="M3304.25,190.6069 C3304.25,239.9769 3304.25,340.2969 3304.25,340.2969 C3304.25,340.2969 3295.09,340.2969 3295.09,340.2969 " fill="none" id="GamifRoutes-to-GamifSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3290.09,340.2969,3299.09,344.2969,3295.09,340.2969,3299.09,336.2969,3290.09,340.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3e8c5b8bc6cd1635ffb316f40d6b4cbe]
+link AchieveRoutes to AchieveSvc--><g id="link_AchieveRoutes_AchieveSvc"><path d="M2735,190.6069 C2735,190.6069 2735,316.8969 2735,316.8969 " fill="none" id="AchieveRoutes-to-AchieveSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2735,321.8969,2739,312.8969,2735,316.8969,2731,312.8969,2735,321.8969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d16ee6f94374ce94304084bb7f46ba20]
+link RestBadgeRoutes to RestBadgeSvc--><g id="link_RestBadgeRoutes_RestBadgeSvc"><path d="M2363,190.6069 C2363,190.6069 2363,316.8969 2363,316.8969 " fill="none" id="RestBadgeRoutes-to-RestBadgeSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2363,321.8969,2367,312.8969,2363,316.8969,2359,312.8969,2363,321.8969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[90b8715eeb315f3a3fe8f69343e00ae3]
+link StaticRoutes to ListingSvc--><g id="link_StaticRoutes_ListingSvc"><path d="M2187,190.6069 C2187,190.6069 2187,316.8969 2187,316.8969 " fill="none" id="StaticRoutes-to-ListingSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2187,321.8969,2191,312.8969,2187,316.8969,2183,312.8969,2187,321.8969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ab9cf501310c58ba208d16d4e9219fed]
+link AnalyticsRoutes to AnalyticsSvc--><g id="link_AnalyticsRoutes_AnalyticsSvc"><path d="M470.75,190.4569 C470.75,199.9269 470.75,208.2969 470.75,208.2969 C470.75,208.2969 828,208.2969 828,208.2969 C828,208.2969 828,317.2169 828,317.2169 " fill="none" id="AnalyticsRoutes-to-AnalyticsSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="828,322.2169,832,313.2169,828,317.2169,824,313.2169,828,322.2169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[46a584f2176e2f7810cb871eed0820b1]
+link CommentRoutes to RestNotifSvc--><g id="link_CommentRoutes_RestNotifSvc"><path d="M924.83,190.3369 C924.83,195.4769 924.83,199.2969 924.83,199.2969 C924.83,199.2969 1176.67,199.2969 1176.67,199.2969 C1176.67,199.2969 1176.67,317.1569 1176.67,317.1569 " fill="none" id="CommentRoutes-to-RestNotifSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1176.67,322.1569,1180.67,313.1569,1176.67,317.1569,1172.67,313.1569,1176.67,322.1569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5f1102851a3b231cd508077ac893bf0e]
+link PunishRoutes to PunishSvc--><g id="link_PunishRoutes_PunishSvc"><path d="M1513.25,190.3069 C1513.25,207.3369 1513.25,226.2969 1513.25,226.2969 C1513.25,226.2969 1744.83,226.2969 1744.83,226.2969 C1744.83,226.2969 1744.83,317.2369 1744.83,317.2369 " fill="none" id="PunishRoutes-to-PunishSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1744.83,322.2369,1748.83,313.2369,1744.83,317.2369,1740.83,313.2369,1744.83,322.2369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0ac791d73901414a3099accd99fea30c]
+link RecRoutes to RecSvc--><g id="link_RecRoutes_RecSvc"><path d="M637.17,190.5869 C637.17,198.1169 637.17,204.2969 637.17,204.2969 C637.17,204.2969 920.17,204.2969 920.17,204.2969 C920.17,204.2969 920.17,317.2369 920.17,317.2369 " fill="none" id="RecRoutes-to-RecSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="920.17,322.2369,924.17,313.2369,920.17,317.2369,916.17,313.2369,920.17,322.2369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a6048cd4f78c36e6601f0d557b9dfafe]
+link WebPushRoutes to NotifSvc--><g id="link_WebPushRoutes_NotifSvc"><path d="M2910,190.6069 C2910,190.6069 2910,316.8969 2910,316.8969 " fill="none" id="WebPushRoutes-to-NotifSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2910,321.8969,2914,312.8969,2910,316.8969,2906,312.8969,2910,321.8969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b1da540e5e5fd46f4f4bd1509da14606]
+link FlashDealsRoutes to ListingSvc--><g id="link_FlashDealsRoutes_ListingSvc"><path d="M2103.5,190.6069 C2103.5,239.9769 2103.5,340.2969 2103.5,340.2969 C2103.5,340.2969 2110.97,340.2969 2110.97,340.2969 " fill="none" id="FlashDealsRoutes-to-ListingSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2115.97,340.2969,2106.97,336.2969,2110.97,340.2969,2106.97,344.2969,2115.97,340.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bea87954cdf8a24b75451de9a88cecfe]
+link EnvRoutes to EnvSvc--><g id="link_EnvRoutes_EnvSvc"><path d="M1220.33,190.3969 C1220.33,221.9369 1220.33,270.2969 1220.33,270.2969 C1220.33,270.2969 1533.5,270.2969 1533.5,270.2969 C1533.5,270.2969 1533.5,317.2669 1533.5,317.2669 " fill="none" id="EnvRoutes-to-EnvSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1533.5,322.2669,1537.5,313.2669,1533.5,317.2669,1529.5,313.2669,1533.5,322.2669" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1d75941ca853cc9c1e2c7e26775925f9]
+link TicketRoutes to ReportSvc--><g id="link_TicketRoutes_ReportSvc"><path d="M1600,190.5269 C1600,205.5469 1600,221.2969 1600,221.2969 C1600,221.2969 2014.83,221.2969 2014.83,221.2969 C2014.83,221.2969 2014.83,317.2269 2014.83,317.2269 " fill="none" id="TicketRoutes-to-ReportSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2014.83,322.2269,2018.83,313.2269,2014.83,317.2269,2010.83,313.2269,2014.83,322.2269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d3988b70c701968cb03572417156927d]
+link ChatbotRoutes to ChatbotSvc--><g id="link_ChatbotRoutes_ChatbotSvc"><path d="M3505,190.4569 C3505,208.9669 3505,230.2969 3505,230.2969 C3505,230.2969 3375,230.2969 3375,230.2969 C3375,230.2969 3375,317.1369 3375,317.1369 " fill="none" id="ChatbotRoutes-to-ChatbotSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3375,322.1369,3379,313.1369,3375,317.1369,3371,313.1369,3375,322.1369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[fa7998f487bb7c89c33fb3c7e396b074]
+link AdminRoutes to AdminSvc--><g id="link_AdminRoutes_AdminSvc"><path d="M3787.25,190.6269 C3787.25,212.3269 3787.25,239.2969 3787.25,239.2969 C3787.25,239.2969 3675,239.2969 3675,239.2969 C3675,239.2969 3675,317.2369 3675,317.2369 " fill="none" id="AdminRoutes-to-AdminSvc" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3675,322.2369,3679,313.2369,3675,317.2369,3671,313.2369,3675,322.2369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[42eba7bb77ddd036bb9f763397b75765]
+link AuthSvc to UserModel--><g id="link_AuthSvc_UserModel"><path d="M3727,358.5769 C3727,379.6169 3727,411.2969 3727,411.2969 C3727,411.2969 3221,411.2969 3221,411.2969 C3221,411.2969 3221,428.2169 3221,428.2169 " fill="none" id="AuthSvc-to-UserModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3221,433.2169,3225,424.2169,3221,428.2169,3217,424.2169,3221,433.2169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b430de4ae221eafd4744731dcda7a316]
+link AddressSvc to AddrModel--><g id="link_AddressSvc_AddrModel"><path d="M550.25,358.3169 C550.25,358.3169 550.25,427.9469 550.25,427.9469 " fill="none" id="AddressSvc-to-AddrModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="550.25,432.9469,554.25,423.9469,550.25,427.9469,546.25,423.9469,550.25,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f2685e47bea152797c3815849b672752]
+link UserSvc to UserModel--><g id="link_UserSvc_UserModel"><path d="M3041.33,358.3569 C3041.33,362.7869 3041.33,366.2969 3041.33,366.2969 C3041.33,366.2969 3169,366.2969 3169,366.2969 C3169,366.2969 3169,427.9069 3169,427.9069 " fill="none" id="UserSvc-to-UserModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3169,432.9069,3173,423.9069,3169,427.9069,3165,423.9069,3169,432.9069" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[84f5c6e2c0780acb26d8e7eab16db463]
+link UserSvc to UserFavModel--><g id="link_UserSvc_UserFavModel"><path d="M3076.67,358.3169 C3076.67,358.3169 3076.67,427.9469 3076.67,427.9469 " fill="none" id="UserSvc-to-UserFavModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3076.67,432.9469,3080.67,423.9469,3076.67,427.9469,3072.67,423.9469,3076.67,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a15d76996f426dce6894c88e275dcfa2]
+link RestSvc to RestModel--><g id="link_RestSvc_RestModel"><path d="M2497,358.4669 C2497,360.7469 2497,362.2969 2497,362.2969 C2497,362.2969 2250.5,362.2969 2250.5,362.2969 C2250.5,362.2969 2250.5,427.8369 2250.5,427.8369 " fill="none" id="RestSvc-to-RestModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2250.5,432.8369,2254.5,423.8369,2250.5,427.8369,2246.5,423.8369,2250.5,432.8369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4f4dedcc7549ad37feb7a3cff12438c3]
+link ListingSvc to ListingModel--><g id="link_ListingSvc_ListingModel"><path d="M2125.5,358.4769 C2125.5,358.9969 2125.5,359.2969 2125.5,359.2969 C2125.5,359.2969 1436.33,359.2969 1436.33,359.2969 C1436.33,359.2969 1436.33,428.0769 1436.33,428.0769 " fill="none" id="ListingSvc-to-ListingModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1436.33,433.0769,1440.33,424.0769,1436.33,428.0769,1432.33,424.0769,1436.33,433.0769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d2343bc71d1f0ac3ff814c6f242a2aaf]
+link CartSvc to UserCartModel--><g id="link_CartSvc_UserCartModel"><path d="M3511,358.4469 C3511,392.6569 3511,463.2969 3511,463.2969 C3511,463.2969 3365.07,463.2969 3365.07,463.2969 " fill="none" id="CartSvc-to-UserCartModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3360.07,463.2969,3369.07,467.2969,3365.07,463.2969,3369.07,459.2969,3360.07,463.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e600fef9365906e22c6ff551e0f0dce2]
+link SearchSvc to ListingModel--><g id="link_SearchSvc_ListingModel"><path d="M1409.67,358.3169 C1409.67,358.3169 1409.67,427.9469 1409.67,427.9469 " fill="none" id="SearchSvc-to-ListingModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1409.67,432.9469,1413.67,423.9469,1409.67,427.9469,1405.67,423.9469,1409.67,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1a3acdf7ec50abccc28bbcbb8d4d9a86]
+link SearchSvc to RestModel--><g id="link_SearchSvc_RestModel"><path d="M1494.25,358.4669 C1494.25,360.7469 1494.25,362.2969 1494.25,362.2969 C1494.25,362.2969 2170.67,362.2969 2170.67,362.2969 C2170.67,362.2969 2170.67,427.8369 2170.67,427.8369 " fill="none" id="SearchSvc-to-RestModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2170.67,432.8369,2174.67,423.8369,2170.67,427.8369,2166.67,423.8369,2170.67,432.8369" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[09b7da30b6af3deea90f0a7e5050660f]
+link PurchaseSvc to PurchaseModel--><g id="link_PurchaseSvc_PurchaseModel"><path d="M703.5,358.4869 C703.5,361.8369 703.5,364.2969 703.5,364.2969 C703.5,364.2969 862.38,364.2969 862.38,364.2969 C862.38,364.2969 862.38,427.8669 862.38,427.8669 " fill="none" id="PurchaseSvc-to-PurchaseModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="862.38,432.8669,866.38,423.8669,862.38,427.8669,858.38,423.8669,862.38,432.8669" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[050e52d67a82c4be768f91cdea70c9ca]
+link PurchaseSvc to RefundModel--><g id="link_PurchaseSvc_RefundModel"><path d="M722,358.3169 C722,358.3169 722,427.9469 722,427.9469 " fill="none" id="PurchaseSvc-to-RefundModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="722,432.9469,726,423.9469,722,427.9469,718,423.9469,722,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8e8a2a10f79d2af6c72191c22f7f7e44]
+link ReportSvc to PurchaseReportModel--><g id="link_ReportSvc_PurchaseReportModel"><path d="M2035,358.3169 C2035,358.3169 2035,427.9469 2035,427.9469 " fill="none" id="ReportSvc-to-PurchaseReportModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2035,432.9469,2039,423.9469,2035,427.9469,2031,423.9469,2035,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9de0fe6788d7d7246ace349a9aa414ca]
+link NotifSvc to UserDeviceModel--><g id="link_NotifSvc_UserDeviceModel"><path d="M2913,358.3169 C2913,358.3169 2913,427.9469 2913,427.9469 " fill="none" id="NotifSvc-to-UserDeviceModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2913,432.9469,2917,423.9469,2913,427.9469,2909,423.9469,2913,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ec522b58ce97086bc7483c73dd0b3adb]
+link GamifSvc to UserModel--><g id="link_GamifSvc_UserModel"><path d="M3182,358.3169 C3182,358.3169 3182,427.9469 3182,427.9469 " fill="none" id="GamifSvc-to-UserModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3182,432.9469,3186,423.9469,3182,427.9469,3178,423.9469,3182,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[70d8ee1129d09645c1213998814e1fa3]
+link AchieveSvc to AchieveModel--><g id="link_AchieveSvc_AchieveModel"><path d="M2651.78,340.2969 C2643.75,340.2969 2638.5,340.2969 2638.5,340.2969 C2638.5,340.2969 2638.5,428.0569 2638.5,428.0569 " fill="none" id="AchieveSvc-to-AchieveModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2638.5,433.0569,2642.5,424.0569,2638.5,428.0569,2634.5,424.0569,2638.5,433.0569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2e6589f8d2d33140a299b2a993d3dc34]
+link AchieveSvc to UserAchieveModel--><g id="link_AchieveSvc_UserAchieveModel"><path d="M2739.5,358.3169 C2739.5,358.3169 2739.5,427.9469 2739.5,427.9469 " fill="none" id="AchieveSvc-to-UserAchieveModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2739.5,432.9469,2743.5,423.9469,2739.5,427.9469,2735.5,423.9469,2739.5,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[432eede4ea1494cac61e77099ba6aa9f]
+link RestBadgeSvc to BadgePointsModel--><g id="link_RestBadgeSvc_BadgePointsModel"><path d="M2369.25,358.3169 C2369.25,358.3169 2369.25,427.9469 2369.25,427.9469 " fill="none" id="RestBadgeSvc-to-BadgePointsModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2369.25,432.9469,2373.25,423.9469,2369.25,427.9469,2365.25,423.9469,2369.25,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9131f51085ccb880b24eb28aec069e15]
+link RestNotifSvc to RestCommentModel--><g id="link_RestNotifSvc_RestCommentModel"><path d="M1153,358.3169 C1153,358.3169 1153,427.9469 1153,427.9469 " fill="none" id="RestNotifSvc-to-RestCommentModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1153,432.9469,1157,423.9469,1153,427.9469,1149,423.9469,1153,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[67064d68376eb2fd49510cd69fe8891f]
+link RestNotifSvc to CommentBadgeModel--><g id="link_RestNotifSvc_CommentBadgeModel"><path d="M1273,358.3169 C1273,358.3169 1273,427.9469 1273,427.9469 " fill="none" id="RestNotifSvc-to-CommentBadgeModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1273,432.9469,1277,423.9469,1273,427.9469,1269,423.9469,1273,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[41b417480a704a7acf60fcca7343306b]
+link PunishSvc to PunishmentModel--><g id="link_PunishSvc_PunishmentModel"><path d="M1835,358.3169 C1835,358.3169 1835,427.9469 1835,427.9469 " fill="none" id="PunishSvc-to-PunishmentModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1835,432.9469,1839,423.9469,1835,427.9469,1831,423.9469,1835,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[13491e920cb838c27fa24116f5a365a1]
+link EnvSvc to EnvContributionModel--><g id="link_EnvSvc_EnvContributionModel"><path d="M1611,358.3169 C1611,358.3169 1611,427.9469 1611,427.9469 " fill="none" id="EnvSvc-to-EnvContributionModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1611,432.9469,1615,423.9469,1611,427.9469,1607,423.9469,1611,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[05eaf2402adfcbc00d699b1c4e7f7f8c]
+link ChatbotSvc to UserModel--><g id="link_ChatbotSvc_UserModel"><path d="M3335.25,358.4669 C3335.25,362.3469 3335.25,365.2969 3335.25,365.2969 C3335.25,365.2969 3195,365.2969 3195,365.2969 C3195,365.2969 3195,428.1269 3195,428.1269 " fill="none" id="ChatbotSvc-to-UserModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3195,433.1269,3199,424.1269,3195,428.1269,3191,424.1269,3195,433.1269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[36a5631b9dc9b1d4b7af24a209c8a851]
+link AdminSvc to UserModel--><g id="link_AdminSvc_UserModel"><path d="M3585,358.5469 C3585,372.4769 3585,389.2969 3585,389.2969 C3585,389.2969 3208,389.2969 3208,389.2969 C3208,389.2969 3208,428.1269 3208,428.1269 " fill="none" id="AdminSvc-to-UserModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="3208,433.1269,3212,424.1269,3208,428.1269,3204,424.1269,3208,433.1269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[742da36373eeb726130555fe0000cc8e]
+link AnalyticsSvc to PurchaseModel--><g id="link_AnalyticsSvc_PurchaseModel"><path d="M884.12,358.3169 C884.12,358.3169 884.12,427.9469 884.12,427.9469 " fill="none" id="AnalyticsSvc-to-PurchaseModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="884.12,432.9469,888.12,423.9469,884.12,427.9469,880.12,423.9469,884.12,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0fc414e1771b383cf7d86cdc2924e731]
+link AnalyticsSvc to RestCommentModel--><g id="link_AnalyticsSvc_RestCommentModel"><path d="M873.25,358.4169 C873.25,361.2669 873.25,363.2969 873.25,363.2969 C873.25,363.2969 1047.75,363.2969 1047.75,363.2969 C1047.75,363.2969 1047.75,428.0869 1047.75,428.0869 " fill="none" id="AnalyticsSvc-to-RestCommentModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1047.75,433.0869,1051.75,424.0869,1047.75,428.0869,1043.75,424.0869,1047.75,433.0869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a5398732dedad44667041fc8c070d258]
+link RecSvc to PurchaseModel--><g id="link_RecSvc_PurchaseModel"><path d="M939,358.3169 C939,358.3169 939,427.9469 939,427.9469 " fill="none" id="RecSvc-to-PurchaseModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="939,432.9469,943,423.9469,939,427.9469,935,423.9469,939,432.9469" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bc595e58055a3c49854ed73a6efa4056]
+link RecSvc to ListingModel--><g id="link_RecSvc_ListingModel"><path d="M1102.25,322.1269 C1102.25,319.8469 1102.25,318.2969 1102.25,318.2969 C1102.25,318.2969 1378,318.2969 1378,318.2969 C1378,318.2969 1378,428.0869 1378,428.0869 " fill="none" id="RecSvc-to-ListingModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1378,433.0869,1382,424.0869,1378,428.0869,1374,424.0869,1378,433.0869" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b9a0aeb5406c310f9839821b05ba21a5]
+link UserModel to SQL--><g id="link_UserModel_SQL"><path d="M3195,481.5569 C3195,518.9269 3195,586.2969 3195,586.2969 C3195,586.2969 2741.09,586.2969 2741.09,586.2969 " fill="none" id="UserModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2736.09,586.2969,2745.09,590.2969,2741.09,586.2969,2745.09,582.2969,2736.09,586.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1f3b31af6c022d11fcea3bd71fef7915]
+link RestModel to SQL--><g id="link_RestModel_SQL"><path d="M2196,481.5569 C2196,522.3569 2196,600.2969 2196,600.2969 C2196,600.2969 2580.77,600.2969 2580.77,600.2969 " fill="none" id="RestModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.77,600.2969,2576.77,596.2969,2580.77,600.2969,2576.77,604.2969,2585.77,600.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c76602e3868102ed011c97f9dbe51a61]
+link ListingModel to SQL--><g id="link_ListingModel_SQL"><path d="M1418,481.4669 C1418,530.9769 1418,639.2969 1418,639.2969 C1418,639.2969 2580.58,639.2969 2580.58,639.2969 " fill="none" id="ListingModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.58,639.2969,2576.58,635.2969,2580.58,639.2969,2576.58,643.2969,2585.58,639.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1f908bc6567aeab081d9d2d4e8779344]
+link PurchaseModel to SQL--><g id="link_PurchaseModel_SQL"><path d="M907,481.6169 C907,537.2969 907,669.2969 907,669.2969 C907,669.2969 2580.91,669.2969 2580.91,669.2969 " fill="none" id="PurchaseModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.91,669.2969,2576.91,665.2969,2580.91,669.2969,2576.91,673.2969,2585.91,669.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0fc0b0235afcb601020526253306c82d]
+link UserCartModel to SQL--><g id="link_UserCartModel_SQL"><path d="M3274.67,481.4469 C3274.67,519.0369 3274.67,587.2969 3274.67,587.2969 C3274.67,587.2969 2741.25,587.2969 2741.25,587.2969 " fill="none" id="UserCartModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2736.25,587.2969,2745.25,591.2969,2741.25,587.2969,2745.25,583.2969,2736.25,587.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[5d4f2b7353e6e72db97d97bdd3664a72]
+link AddrModel to SQL--><g id="link_AddrModel_SQL"><path d="M592,481.6869 C592,541.2469 592,689.2969 592,689.2969 C592,689.2969 2580.83,689.2969 2580.83,689.2969 " fill="none" id="AddrModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.83,689.2969,2576.83,685.2969,2580.83,689.2969,2576.83,693.2969,2585.83,689.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6cefe1579e591b85e1e3f6b75a3d4864]
+link AchieveModel to SQL--><g id="link_AchieveModel_SQL"><path d="M2614.5,481.4669 C2614.5,481.4669 2614.5,575.1169 2614.5,575.1169 " fill="none" id="AchieveModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2614.5,580.1169,2618.5,571.1169,2614.5,575.1169,2610.5,571.1169,2614.5,580.1169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b2139aa7b575b11966e78c0114882a31]
+link UserAchieveModel to SQL--><g id="link_UserAchieveModel_SQL"><path d="M2699.5,481.4669 C2699.5,481.4669 2699.5,575.1169 2699.5,575.1169 " fill="none" id="UserAchieveModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2699.5,580.1169,2703.5,571.1169,2699.5,575.1169,2695.5,571.1169,2699.5,580.1169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[101c10cb8d256a3fd59129122b464cda]
+link RestCommentModel to SQL--><g id="link_RestCommentModel_SQL"><path d="M1078,481.6669 C1078,535.3869 1078,659.2969 1078,659.2969 C1078,659.2969 2580.98,659.2969 2580.98,659.2969 " fill="none" id="RestCommentModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.98,659.2969,2576.98,655.2969,2580.98,659.2969,2576.98,663.2969,2585.98,659.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8e8c83e6a4947335cf3a2ec2ebe5a34c]
+link PurchaseReportModel to SQL--><g id="link_PurchaseReportModel_SQL"><path d="M2036,481.5369 C2036,524.6869 2036,610.2969 2036,610.2969 C2036,610.2969 2580.92,610.2969 2580.92,610.2969 " fill="none" id="PurchaseReportModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.92,610.2969,2576.92,606.2969,2580.92,610.2969,2576.92,614.2969,2585.92,610.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[568123fb3e2d628de413f55868c457e7]
+link UserDeviceModel to SQL--><g id="link_UserDeviceModel_SQL"><path d="M2878.25,481.3969 C2878.25,517.7169 2878.25,582.2969 2878.25,582.2969 C2878.25,582.2969 2741.07,582.2969 2741.07,582.2969 " fill="none" id="UserDeviceModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2736.07,582.2969,2745.07,586.2969,2741.07,582.2969,2745.07,578.2969,2736.07,582.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4b7bef7973f45c1800c3385fe90fc52a]
+link UserFavModel to SQL--><g id="link_UserFavModel_SQL"><path d="M3057,481.4869 C3057,518.3269 3057,584.2969 3057,584.2969 C3057,584.2969 2741.42,584.2969 2741.42,584.2969 " fill="none" id="UserFavModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2736.42,584.2969,2745.42,588.2969,2741.42,584.2969,2745.42,580.2969,2736.42,584.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e143ab920861954ce4cd7d9c54b91b8b]
+link CommentBadgeModel to SQL--><g id="link_CommentBadgeModel_SQL"><path d="M1273,481.6169 C1273,533.2769 1273,649.2969 1273,649.2969 C1273,649.2969 2580.88,649.2969 2580.88,649.2969 " fill="none" id="CommentBadgeModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.88,649.2969,2576.88,645.2969,2580.88,649.2969,2576.88,653.2969,2585.88,649.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b76e2b9daafc5b10ecc191700d5f7ebb]
+link BadgePointsModel to SQL--><g id="link_BadgePointsModel_SQL"><path d="M2382,481.3869 C2382,519.7069 2382,590.2969 2382,590.2969 C2382,590.2969 2580.87,590.2969 2580.87,590.2969 " fill="none" id="BadgePointsModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.87,590.2969,2576.87,586.2969,2580.87,590.2969,2576.87,594.2969,2585.87,590.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[66f441bf4385ac59308306162443d14b]
+link PunishmentModel to SQL--><g id="link_PunishmentModel_SQL"><path d="M1835,481.3469 C1835,526.6869 1835,620.2969 1835,620.2969 C1835,620.2969 2580.88,620.2969 2580.88,620.2969 " fill="none" id="PunishmentModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.88,620.2969,2576.88,616.2969,2580.88,620.2969,2576.88,624.2969,2585.88,620.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[73f2913b4e4c4debb2abe8606663f3b9]
+link RefundModel to SQL--><g id="link_RefundModel_SQL"><path d="M758,481.4769 C758,539.0169 758,679.2969 758,679.2969 C758,679.2969 2580.81,679.2969 2580.81,679.2969 " fill="none" id="RefundModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.81,679.2969,2576.81,675.2969,2580.81,679.2969,2576.81,683.2969,2585.81,679.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1c528e23fb9dc8d0ee7530558fecdb62]
+link EnvContributionModel to SQL--><g id="link_EnvContributionModel_SQL"><path d="M1598,481.3469 C1598,528.8869 1598,630.2969 1598,630.2969 C1598,630.2969 2580.83,630.2969 2580.83,630.2969 " fill="none" id="EnvContributionModel-to-SQL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="2585.83,630.2969,2576.83,626.2969,2580.83,630.2969,2576.83,634.2969,2585.83,630.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ff6bc8c79dbda6352081e1ea144ed8f3]
+link NotifSvc to WebPushExt--><g id="link_NotifSvc_WebPushExt"><path d="M2980.75,358.5469 C2980.75,358.5469 2980.75,583.6969 2980.75,583.6969 " fill="none" id="NotifSvc-to-WebPushExt" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2980.75,588.6969,2984.75,579.6969,2980.75,583.6969,2976.75,579.6969,2980.75,588.6969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d899ab1d24548d123eb75fd99d67fb15]
+link AuthSvc to AzureComm--><g id="link_AuthSvc_AzureComm"><path d="M3734,358.3069 C3734,408.6669 3734,547.2969 3734,547.2969 C3734,547.2969 3566,547.2969 3566,547.2969 C3566,547.2969 3566,583.7169 3566,583.7169 " fill="none" id="AuthSvc-to-AzureComm" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3566,588.7169,3570,579.7169,3566,583.7169,3562,579.7169,3566,588.7169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[12dc71a99b981f27d4a07c5c4bcc37fb]
+link RestSvc to Firebase--><g id="link_RestSvc_Firebase"><path d="M2569.5,358.4469 C2569.5,359.5969 2569.5,360.2969 2569.5,360.2969 C2569.5,360.2969 2845.67,360.2969 2845.67,360.2969 C2845.67,360.2969 2845.67,583.7769 2845.67,583.7769 " fill="none" id="RestSvc-to-Firebase" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2845.67,588.7769,2849.67,579.7769,2845.67,583.7769,2841.67,579.7769,2845.67,588.7769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3f666b75e05e9f6bdb07fd34183d18b1]
+link ListingSvc to Firebase--><g id="link_ListingSvc_Firebase"><path d="M2206.33,358.3769 C2206.33,360.1469 2206.33,361.2969 2206.33,361.2969 C2206.33,361.2969 2840.83,361.2969 2840.83,361.2969 C2840.83,361.2969 2840.83,583.6269 2840.83,583.6269 " fill="none" id="ListingSvc-to-Firebase" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="2840.83,588.6269,2844.83,579.6269,2840.83,583.6269,2836.83,579.6269,2840.83,588.6269" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[54b0816da5dc822418a108e9bba5b775]
+link AdminSvc to Scheduler--><g id="link_AdminSvc_Scheduler"><path d="M3587.5,358.5869 C3587.5,403.2669 3587.5,514.2969 3587.5,514.2969 C3587.5,514.2969 3295.33,514.2969 3295.33,514.2969 C3295.33,514.2969 3295.33,583.4569 3295.33,583.4569 " fill="none" id="AdminSvc-to-Scheduler" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3295.33,588.4569,3299.33,579.4569,3295.33,583.4569,3291.33,579.4569,3295.33,588.4569" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[97426898c92221ef8809ad3234f9a995]
+link RestAPI to ApiDocs--><g id="link_RestAPI_ApiDocs"><path d="M4047.71,451.2969 C3955.53,451.2969 3741,451.2969 3741,451.2969 C3741,451.2969 3741,583.4169 3741,583.4169 " fill="none" id="RestAPI-to-ApiDocs" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3741,588.4169,3745,579.4169,3741,583.4169,3737,579.4169,3741,588.4169" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[54d47c6663671cc73c598070215de0f6]
+link RestAPI to AzureHost--><g id="link_RestAPI_AzureHost"><path d="M4089,475.5369 C4089,542.5469 4089,771.2969 4089,771.2969 C4089,771.2969 3254.23,771.2969 3254.23,771.2969 " fill="none" id="RestAPI-to-AzureHost" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3249.23,771.2969,3258.23,775.2969,3254.23,771.2969,3258.23,767.2969,3249.23,771.2969" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[efcbadc083e90930a6761e59f78d4e91]
+link SQL to AzureHost--><g id="link_SQL_AzureHost"><path d="M2736.22,694.2969 C2862.04,694.2969 3101.5,694.2969 3101.5,694.2969 C3101.5,694.2969 3101.5,723.0769 3101.5,723.0769 " fill="none" id="SQL-to-AzureHost" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="3101.5,728.0769,3105.5,719.0769,3101.5,723.0769,3097.5,719.0769,3101.5,728.0769" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d2d32fc374a1b2085221aa56ae948d56]
+@startuml
+' - - Force vertical stacking and orthogonal lines
+top to bottom direction
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam nodesep 20
+skinparam ranksep 30
+skinparam linetype ortho
+
+title FreshDeal Ecosystem Architecture - Actual Implementation
+
+' - - Clients at the top
+package "Clients" {
+  component "Mobile App\n(React Native)\n• User Auth\n• Order Management\n• Gamification\n• Push Notifications\n• Map Integration\n• FreshScore Display\n• FlashDeals" as Mobile
+
+  component "Web Client\n(React/JavaScript)\n• Customer UI\n• Order Management\n• Cart & Checkout\n• Gamification\n• FlashDeals UI\n• CO₂ Impact Track" as WebClient
+
+  component "Business Portal\n(TypeScript + React)\n• Restaurant Management\n• Flash Deals Configuration\n• Analytics Dashboard\n• Support Ticket Management\n• Restaurant Punishment System\n• Order Fulfillment Interface\n• Performance Analytics" as BizPortal
+}
+
+' - - Gateway
+component "REST\nHTTP/HTTPS, TLS 1.2+" as REST
+
+Mobile - -> REST
+WebClient - -> REST
+BizPortal - -> REST
+
+component "REST API" as RestAPI
+REST - -> RestAPI
+
+' - - Backend API
+package "FreshDeal Backend API\n(Flask + Python)" {
+  package "Routes Layer" {
+    component "Auth Routes\n(auth_bp)" as AuthRoutes
+    component "Address Routes\n(addresses_bp)" as AddressRoutes
+    component "User Routes\n(user_bp)" as UserRoutes
+    component "Restaurant Routes\n(restaurant_bp)" as RestRoutes
+    component "Listing Routes\n(listings_bp)" as ListingRoutes
+    component "Cart Routes\n(cart_bp)" as CartRoutes
+    component "Search Routes\n(search_bp)" as SearchRoutes
+    component "Purchase Routes\n(purchase_bp)" as PurchaseRoutes
+    component "Report Routes\n(report_bp)" as ReportRoutes
+    component "Notification Routes\n(notification_bp)" as NotificationRoutes
+    component "Gamification Routes\n(gamification_bp)" as GamifRoutes
+    component "Achievement Routes\n(achievement_bp)" as AchieveRoutes
+    component "Restaurant Badge Routes\n(restaurant_badge_bp)" as RestBadgeRoutes
+    component "Static Routes\n(static_bp)" as StaticRoutes
+    component "Analytics Routes\n(analytics_bp)" as AnalyticsRoutes
+    component "Comment Analysis Routes\n(comment_analysis_bp)" as CommentRoutes
+    component "Restaurant Punishment Routes\n(restaurant_punishment_bp)" as PunishRoutes
+    component "Recommendation Routes\n(recommendation_bp)" as RecRoutes
+    component "Web Push Routes\n(web_push_bp)" as WebPushRoutes
+    component "Flash Deals Routes\n(flash_deals_bp)" as FlashDealsRoutes
+    component "Environmental Routes\n(environmental_bp)" as EnvRoutes
+    component "Ticket Routes\n(ticket_bp)" as TicketRoutes
+    component "Chatbot Routes\n(chatbot_bp)" as ChatbotRoutes
+    component "Admin Routes\n(admin_bp)" as AdminRoutes
+  }
+
+  package "Service Layer" {
+    component "Auth Service" as AuthSvc
+    component "Address Service" as AddressSvc
+    component "User Service" as UserSvc
+    component "Restaurant Service" as RestSvc
+    component "Listings Service" as ListingSvc
+    component "Cart Service" as CartSvc
+    component "Search Service" as SearchSvc
+    component "Purchase Service" as PurchaseSvc
+    component "Report Service" as ReportSvc
+    component "Notification Service" as NotifSvc
+    component "Gamification Service" as GamifSvc
+    component "Achievement Service" as AchieveSvc
+    component "Restaurant Badge Service" as RestBadgeSvc
+    component "Restaurant Notification Service" as RestNotifSvc
+    component "Restaurant Punishment Service" as PunishSvc
+    component "Environmental Service" as EnvSvc
+    component "Chatbot Service" as ChatbotSvc
+    component "Admin Service" as AdminSvc
+    component "Analytics Service" as AnalyticsSvc
+    component "Recommendation Service" as RecSvc
+  }
+
+  package "Data Layer" {
+    entity "User Model" as UserModel
+    entity "CustomerAddr Model" as AddrModel
+    entity "Restaurant Model" as RestModel
+    entity "Listing Model" as ListingModel
+    entity "UserCart Model" as UserCartModel
+    entity "Purchase Model" as PurchaseModel
+    entity "PurchaseReport Model" as PurchaseReportModel
+    entity "Achievement Model" as AchieveModel
+    entity "UserAchievement Model" as UserAchieveModel
+    entity "RestaurantComment Model" as RestCommentModel
+    entity "CommentBadge Model" as CommentBadgeModel
+    entity "RestaurantBadgePoints Model" as BadgePointsModel
+    entity "RestaurantPunishment Model" as PunishmentModel
+    entity "UserDevice Model" as UserDeviceModel
+    entity "UserFavorites Model" as UserFavModel
+    entity "RefundRecord Model" as RefundModel
+    entity "EnvironmentalContribution Model" as EnvContributionModel
+  }
+
+  ' Route → Service
+  AuthRoutes - -> AuthSvc
+  AddressRoutes - -> AddressSvc
+  UserRoutes - -> UserSvc
+  RestRoutes - -> RestSvc
+  ListingRoutes - -> ListingSvc
+  CartRoutes - -> CartSvc
+  SearchRoutes - -> SearchSvc
+  PurchaseRoutes - -> PurchaseSvc
+  ReportRoutes - -> ReportSvc
+  NotificationRoutes - -> NotifSvc
+  GamifRoutes - -> GamifSvc
+  AchieveRoutes - -> AchieveSvc
+  RestBadgeRoutes - -> RestBadgeSvc
+  StaticRoutes - -> ListingSvc
+  AnalyticsRoutes - -> AnalyticsSvc
+  CommentRoutes - -> RestNotifSvc
+  PunishRoutes - -> PunishSvc
+  RecRoutes - -> RecSvc
+  WebPushRoutes - -> NotifSvc
+  FlashDealsRoutes - -> ListingSvc
+  EnvRoutes - -> EnvSvc
+  TicketRoutes - -> ReportSvc
+  ChatbotRoutes - -> ChatbotSvc
+  AdminRoutes - -> AdminSvc
+
+  ' Service → Data
+  AuthSvc - -> UserModel
+  AddressSvc - -> AddrModel
+  UserSvc - -> UserModel
+  UserSvc - -> UserFavModel
+  RestSvc - -> RestModel
+  ListingSvc - -> ListingModel
+  CartSvc - -> UserCartModel
+  SearchSvc - -> ListingModel
+  SearchSvc - -> RestModel
+  PurchaseSvc - -> PurchaseModel
+  PurchaseSvc - -> RefundModel
+  ReportSvc - -> PurchaseReportModel
+  NotifSvc - -> UserDeviceModel
+  GamifSvc - -> UserModel
+  AchieveSvc - -> AchieveModel
+  AchieveSvc - -> UserAchieveModel
+  RestBadgeSvc - -> BadgePointsModel
+  RestNotifSvc - -> RestCommentModel
+  RestNotifSvc - -> CommentBadgeModel
+  PunishSvc - -> PunishmentModel
+  EnvSvc - -> EnvContributionModel
+  ChatbotSvc - -> UserModel
+  AdminSvc - -> UserModel
+  AnalyticsSvc - -> PurchaseModel
+  AnalyticsSvc - -> RestCommentModel
+  RecSvc - -> PurchaseModel
+  RecSvc - -> ListingModel
+}
+
+' - - External services at bottom
+package "External Services Layer" {
+  component "MS SQL Server\n(Primary Database)\n• All Models\n• Relationships\n• Constraints\n• Migrations" as SQL
+  component "Firebase Storage\n• Image Upload\n• File Management\n• Static Assets\n• CDN Integration" as Firebase
+  component "Azure Communication Services\n• Email Verification\n• Code Generation\n• SMTP Services\n• Template Management" as AzureComm
+  component "Web Push Notifications\n• Browser Push\n• VAPID Keys\n• Service Workers\n• Cross-platform Support" as WebPushExt
+  component "Background Scheduler\n• APScheduler\n• Listing Updates\n• Automated Tasks\n• Cron Jobs" as Scheduler
+  component "API Documentation\n• Swagger/Flasgger\n• Interactive Docs\n• Schema Validation\n• Testing Interface" as ApiDocs
+  component "Azure App Service\n• Application Hosting\n• Auto-scaling\n• Load Balancing" as AzureHost
+}
+
+' External connections
+UserModel        - -> SQL
+RestModel        - -> SQL
+ListingModel     - -> SQL
+PurchaseModel    - -> SQL
+UserCartModel    - -> SQL
+AddrModel        - -> SQL
+AchieveModel     - -> SQL
+UserAchieveModel - -> SQL
+RestCommentModel - -> SQL
+PurchaseReportModel - -> SQL
+UserDeviceModel  - -> SQL
+UserFavModel     - -> SQL
+CommentBadgeModel - -> SQL
+BadgePointsModel - -> SQL
+PunishmentModel  - -> SQL
+RefundModel      - -> SQL
+EnvContributionModel - -> SQL
+
+NotifSvc ..> WebPushExt
+AuthSvc  ..> AzureComm
+RestSvc  ..> Firebase
+ListingSvc ..> Firebase
+AdminSvc ..> Scheduler
+
+RestAPI ..> ApiDocs
+RestAPI ..> AzureHost
+SQL     ..> AzureHost
+@enduml
+
+@startuml
+top to bottom direction
+skinparam componentStyle rectangle
+skinparam shadowing false
+skinparam nodesep 20
+skinparam ranksep 30
+skinparam linetype ortho
+
+title FreshDeal Ecosystem Architecture - Actual Implementation
+
+package "Clients" {
+  component "Mobile App\n(React Native)\n• User Auth\n• Order Management\n• Gamification\n• Push Notifications\n• Map Integration\n• FreshScore Display\n• FlashDeals" as Mobile
+
+  component "Web Client\n(React/JavaScript)\n• Customer UI\n• Order Management\n• Cart & Checkout\n• Gamification\n• FlashDeals UI\n• CO₂ Impact Track" as WebClient
+
+  component "Business Portal\n(TypeScript + React)\n• Restaurant Management\n• Flash Deals Configuration\n• Analytics Dashboard\n• Support Ticket Management\n• Restaurant Punishment System\n• Order Fulfillment Interface\n• Performance Analytics" as BizPortal
+}
+
+component "REST\nHTTP/HTTPS, TLS 1.2+" as REST
+
+Mobile - -> REST
+WebClient - -> REST
+BizPortal - -> REST
+
+component "REST API" as RestAPI
+REST - -> RestAPI
+
+package "FreshDeal Backend API\n(Flask + Python)" {
+  package "Routes Layer" {
+    component "Auth Routes\n(auth_bp)" as AuthRoutes
+    component "Address Routes\n(addresses_bp)" as AddressRoutes
+    component "User Routes\n(user_bp)" as UserRoutes
+    component "Restaurant Routes\n(restaurant_bp)" as RestRoutes
+    component "Listing Routes\n(listings_bp)" as ListingRoutes
+    component "Cart Routes\n(cart_bp)" as CartRoutes
+    component "Search Routes\n(search_bp)" as SearchRoutes
+    component "Purchase Routes\n(purchase_bp)" as PurchaseRoutes
+    component "Report Routes\n(report_bp)" as ReportRoutes
+    component "Notification Routes\n(notification_bp)" as NotificationRoutes
+    component "Gamification Routes\n(gamification_bp)" as GamifRoutes
+    component "Achievement Routes\n(achievement_bp)" as AchieveRoutes
+    component "Restaurant Badge Routes\n(restaurant_badge_bp)" as RestBadgeRoutes
+    component "Static Routes\n(static_bp)" as StaticRoutes
+    component "Analytics Routes\n(analytics_bp)" as AnalyticsRoutes
+    component "Comment Analysis Routes\n(comment_analysis_bp)" as CommentRoutes
+    component "Restaurant Punishment Routes\n(restaurant_punishment_bp)" as PunishRoutes
+    component "Recommendation Routes\n(recommendation_bp)" as RecRoutes
+    component "Web Push Routes\n(web_push_bp)" as WebPushRoutes
+    component "Flash Deals Routes\n(flash_deals_bp)" as FlashDealsRoutes
+    component "Environmental Routes\n(environmental_bp)" as EnvRoutes
+    component "Ticket Routes\n(ticket_bp)" as TicketRoutes
+    component "Chatbot Routes\n(chatbot_bp)" as ChatbotRoutes
+    component "Admin Routes\n(admin_bp)" as AdminRoutes
+  }
+
+  package "Service Layer" {
+    component "Auth Service" as AuthSvc
+    component "Address Service" as AddressSvc
+    component "User Service" as UserSvc
+    component "Restaurant Service" as RestSvc
+    component "Listings Service" as ListingSvc
+    component "Cart Service" as CartSvc
+    component "Search Service" as SearchSvc
+    component "Purchase Service" as PurchaseSvc
+    component "Report Service" as ReportSvc
+    component "Notification Service" as NotifSvc
+    component "Gamification Service" as GamifSvc
+    component "Achievement Service" as AchieveSvc
+    component "Restaurant Badge Service" as RestBadgeSvc
+    component "Restaurant Notification Service" as RestNotifSvc
+    component "Restaurant Punishment Service" as PunishSvc
+    component "Environmental Service" as EnvSvc
+    component "Chatbot Service" as ChatbotSvc
+    component "Admin Service" as AdminSvc
+    component "Analytics Service" as AnalyticsSvc
+    component "Recommendation Service" as RecSvc
+  }
+
+  package "Data Layer" {
+    entity "User Model" as UserModel
+    entity "CustomerAddr Model" as AddrModel
+    entity "Restaurant Model" as RestModel
+    entity "Listing Model" as ListingModel
+    entity "UserCart Model" as UserCartModel
+    entity "Purchase Model" as PurchaseModel
+    entity "PurchaseReport Model" as PurchaseReportModel
+    entity "Achievement Model" as AchieveModel
+    entity "UserAchievement Model" as UserAchieveModel
+    entity "RestaurantComment Model" as RestCommentModel
+    entity "CommentBadge Model" as CommentBadgeModel
+    entity "RestaurantBadgePoints Model" as BadgePointsModel
+    entity "RestaurantPunishment Model" as PunishmentModel
+    entity "UserDevice Model" as UserDeviceModel
+    entity "UserFavorites Model" as UserFavModel
+    entity "RefundRecord Model" as RefundModel
+    entity "EnvironmentalContribution Model" as EnvContributionModel
+  }
+
+  AuthRoutes - -> AuthSvc
+  AddressRoutes - -> AddressSvc
+  UserRoutes - -> UserSvc
+  RestRoutes - -> RestSvc
+  ListingRoutes - -> ListingSvc
+  CartRoutes - -> CartSvc
+  SearchRoutes - -> SearchSvc
+  PurchaseRoutes - -> PurchaseSvc
+  ReportRoutes - -> ReportSvc
+  NotificationRoutes - -> NotifSvc
+  GamifRoutes - -> GamifSvc
+  AchieveRoutes - -> AchieveSvc
+  RestBadgeRoutes - -> RestBadgeSvc
+  StaticRoutes - -> ListingSvc
+  AnalyticsRoutes - -> AnalyticsSvc
+  CommentRoutes - -> RestNotifSvc
+  PunishRoutes - -> PunishSvc
+  RecRoutes - -> RecSvc
+  WebPushRoutes - -> NotifSvc
+  FlashDealsRoutes - -> ListingSvc
+  EnvRoutes - -> EnvSvc
+  TicketRoutes - -> ReportSvc
+  ChatbotRoutes - -> ChatbotSvc
+  AdminRoutes - -> AdminSvc
+
+  AuthSvc - -> UserModel
+  AddressSvc - -> AddrModel
+  UserSvc - -> UserModel
+  UserSvc - -> UserFavModel
+  RestSvc - -> RestModel
+  ListingSvc - -> ListingModel
+  CartSvc - -> UserCartModel
+  SearchSvc - -> ListingModel
+  SearchSvc - -> RestModel
+  PurchaseSvc - -> PurchaseModel
+  PurchaseSvc - -> RefundModel
+  ReportSvc - -> PurchaseReportModel
+  NotifSvc - -> UserDeviceModel
+  GamifSvc - -> UserModel
+  AchieveSvc - -> AchieveModel
+  AchieveSvc - -> UserAchieveModel
+  RestBadgeSvc - -> BadgePointsModel
+  RestNotifSvc - -> RestCommentModel
+  RestNotifSvc - -> CommentBadgeModel
+  PunishSvc - -> PunishmentModel
+  EnvSvc - -> EnvContributionModel
+  ChatbotSvc - -> UserModel
+  AdminSvc - -> UserModel
+  AnalyticsSvc - -> PurchaseModel
+  AnalyticsSvc - -> RestCommentModel
+  RecSvc - -> PurchaseModel
+  RecSvc - -> ListingModel
+}
+
+package "External Services Layer" {
+  component "MS SQL Server\n(Primary Database)\n• All Models\n• Relationships\n• Constraints\n• Migrations" as SQL
+  component "Firebase Storage\n• Image Upload\n• File Management\n• Static Assets\n• CDN Integration" as Firebase
+  component "Azure Communication Services\n• Email Verification\n• Code Generation\n• SMTP Services\n• Template Management" as AzureComm
+  component "Web Push Notifications\n• Browser Push\n• VAPID Keys\n• Service Workers\n• Cross-platform Support" as WebPushExt
+  component "Background Scheduler\n• APScheduler\n• Listing Updates\n• Automated Tasks\n• Cron Jobs" as Scheduler
+  component "API Documentation\n• Swagger/Flasgger\n• Interactive Docs\n• Schema Validation\n• Testing Interface" as ApiDocs
+  component "Azure App Service\n• Application Hosting\n• Auto-scaling\n• Load Balancing" as AzureHost
+}
+
+UserModel        - -> SQL
+RestModel        - -> SQL
+ListingModel     - -> SQL
+PurchaseModel    - -> SQL
+UserCartModel    - -> SQL
+AddrModel        - -> SQL
+AchieveModel     - -> SQL
+UserAchieveModel - -> SQL
+RestCommentModel - -> SQL
+PurchaseReportModel - -> SQL
+UserDeviceModel  - -> SQL
+UserFavModel     - -> SQL
+CommentBadgeModel - -> SQL
+BadgePointsModel - -> SQL
+PunishmentModel  - -> SQL
+RefundModel      - -> SQL
+EnvContributionModel - -> SQL
+
+NotifSvc ..> WebPushExt
+AuthSvc  ..> AzureComm
+RestSvc  ..> Firebase
+ListingSvc ..> Firebase
+AdminSvc ..> Scheduler
+
+RestAPI ..> ApiDocs
+RestAPI ..> AzureHost
+SQL     ..> AzureHost
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
